@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#home
+{
+height:100vh;
+width:100%;
+background-image: url(systemimg.webp);
+background-position: center;
+background-size: cover;
+}
+ul
+{   font-size: 20px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-top:45px;
+	padding-left:700px;
+	padding-right:100px;
+	
+}
+ul li
+{
+    list-style-type:none;
+
+}
+ul li a
+{
+	color:white;
+	font-weight:bold;
+}
+ul li a:hover
+{
+    color:red;
+    transition: .4s;
+}
+h4{
+margin-top: 100px;
+margin-left:700px;
+font-size: 30px;
+color:black;
+}
+h1{
+    margin-top: 30px;
+margin-left:700px;
+font-size: 35px;
+color:black;
+
+}
+h2{
+    margin-top: 30px;
+margin-left:700px;
+font-size: 35px;
+color:black;
+}
+button
+{
+    background-color:whitesmoke;
+    color:black;
+    padding: 10px;
+    margin-left: 780px;
+    margin-top: 30px;
+    border-radius: 20px;
+font-weight: bold;}
+button:hover
+{
+    background-color:darkred;
+    color:white;
+    transition: .4s;
+}
+/*about */
+
+#about
+
+{display:flex;
+    background-color:rgb(9, 29, 49);
+height:100vh;}
+#about img{
+	height:100vh;
+	width:50%;
+}
+#about p
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    align-items: center;
+    color:whitesmoke;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+padding:20px;
+font-size: 20px;
+text-indent: 10px;
+}
+#about a
+{
+    margin-top:500px;
+    color:whitesmoke;
+}
+#about a:hover
+{
+    color:red;
+}
+#about span
+{margin-left:150px;
+    
+    text-align: center;
+font-size: 30px;
+font-weight: bolder;
+}
+/*services*/
+#services
+{
+
+background-color:rgb(9, 29, 49);
+    height:100vh;
+
+}
+#services h1{
+    color:whitesmoke;
+    /*align-items: center;*/
+    margin-left: 600px;
+
+}
+#images
+{
+    margin-left: 250px;
+    padding:30px;
+}
+#images img
+{margin:0;
+border-style:solid;
+border-color:blueviolet;
+border-radius:10px;
+  
+}
+#services a:hover
+{
+    color:red;
+}
+#services a{
+    margin-left: 1200px;
+color:whitesmoke;}
+/*contact us*/
+#contact
+{
+    display:flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    height:100vh;
+    background-color:rgb(9, 29, 49) ;
+}
+#contact h1{
+    color:white;
+    align-items: center;
+    margin-left: 600px;
+}
+.form{
+	display:flex;
+flex-direction:column;
+box-sizing:border-box;
+align-items:center;
+margin-top:75px;
+margin-bottom: 100px;
+}
+#contact input
+{
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+}
+#submit
+{padding: 10px;
+    background-color:whitesmoke;
+    color:black;
+    border-radius: 20px;
+font-weight: bold;
+}
+#submit:hover
+{
+    background-color: darkred;
+    color:white;
+
+}
+#contact a:hover
+{
+    color:red;
+}
+#contact a{
+    margin-left: 1200px;
+color:whitesmoke;}
